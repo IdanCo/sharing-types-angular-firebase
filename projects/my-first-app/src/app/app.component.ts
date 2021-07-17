@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { foo } from 'my-lib';
+import { foo, MyClass, MyInterface } from 'my-lib';
 
 @Component({
   selector: 'app-root',
@@ -12,5 +12,14 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     const value = foo();
     console.info(value);
+
+    const myClass = new MyClass();
+    console.info(myClass);
+
+    const myInterface: MyInterface = {
+      prop1: 2,
+      prop2: 'b'
+    };
+    console.info(myInterface)
   }
 }
