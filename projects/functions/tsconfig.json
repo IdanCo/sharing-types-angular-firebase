@@ -11,5 +11,11 @@
   "compileOnSave": true,
   "include": [
     "src"
-  ]
+  ],
+  "baseUrl": "./",
+  "paths": {
+    "my-lib": [
+      "dist/my-lib" // the relative path to our generated library
+    ]
+  }
 }

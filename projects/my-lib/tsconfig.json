@@ -5,7 +5,7 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "outDir": "../../dist/my-lib",
+    "outDir": "../functions/dist/my-lib",
     "resolveJsonModule": true,
     "strict": true,
     "esModuleInterop": true,

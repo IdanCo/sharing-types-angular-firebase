@@ -7,3 +7,10 @@ typings/
 
 # Node.js dependency directory
 node_modules/
+
+# Firebase logs
+ui-debug.log
+firebase-debug.log
+
+# Compiled shared resources
+dist/

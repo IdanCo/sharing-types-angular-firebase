@@ -22,7 +22,7 @@
     ],
     "paths": {
       "my-lib": [
-        "dist/my-lib"
+        "projects/functions/dist/my-lib"
       ]
     }
   },
